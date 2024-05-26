@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Bar Chart</title>
+    <link rel="stylesheet" href="output.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body class="bg-blue-500">
+    <div class="container flex justify-center items-center h-screen mx-auto relative">
+        <svg id="chart" class="block mx-auto"></svg>
+        <div id="tooltip" class="absolute bg-slate-300 text-center p-2 rounded-lg opacity-0 pointer-events-none transition-opacity duration-200"></div>
+    </div>
+    <script src="script.js" type="module"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>

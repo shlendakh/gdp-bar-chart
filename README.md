@@ -6,8 +6,6 @@ This project is a part of the Free Code Camp curriculum. It visualizes GDP data 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Development](#development)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
